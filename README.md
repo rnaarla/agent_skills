@@ -1,4 +1,3 @@
-
 # Skills For Real Engineers
 
 My agent skills that I use every day to do real engineering - not vibe coding.
@@ -7,25 +6,22 @@ Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit tr
 
 These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.
 
-If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:
-
-
 ## Quickstart (30-second setup)
 
 1. Run the skills.sh installer:
 
 ```bash
-npx skills@latest add mattpocock/skills
+npx skills@latest add rnaarla/agent_skills
 ```
 
-2. Pick the skills you want, and which coding agents you want to install them on. **Make sure you select `/setup-agent-skills`**.
+1. Pick the skills you want, and which coding agents you want to install them on. **Make sure you select `/setup-agent-skills`**.
 
-3. Run `/setup-agent-skills` in your agent. It will:
+1. Run `/setup-agent-skills` in your agent. It will:
    - Ask you which issue tracker you want to use (GitHub, Linear, or local files)
    - Ask you what labels you apply to ticks when you triage them (`/triage` uses labels)
    - Ask you where you want to save any docs we create
 
-4. Bam - you're ready to go.
+1. Bam - you're ready to go.
 
 ## Why These Skills Exist
 
@@ -65,7 +61,7 @@ I felt the same tension with my agents. Agents are usually dropped into a projec
 Example
 </summary>
 
-Here's an example [`CONTEXT.md`](https://github.com/mattpocock/course-video-manager/blob/076a5a7a182db0fe1e62971dd7a68bcadf010f1c/CONTEXT.md), from my `course-video-manager` repo. Which one is easier to read?
+Here's an example of how a shared language changes agent output. Which one is easier to read?
 
 - **BEFORE**: "There's a problem when a lesson inside a section of a course is made 'real' (i.e. given a spot in the file system)"
 - **AFTER**: "There's a problem with the materialization cascade"
